@@ -1,0 +1,47 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #D32F2F; /* Rich Red */
+  font-size: 16px; /* Accessibility baseline font size */
+}
+
+h2 {
+  margin: 20px;
+  color: #FFD54F; /* Gold */
+  font-size: 32px; /* Larger heading font size */
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+}
+
+h4 {
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+}
+
+.calendar-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  gap: 2px;
+  padding: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #388E3C; /* Christmas Green */
+  border-radius: 20px;
+}
+
+.calendar-box {
+  background-color: #FF0000; /* Traditional Red */
+  color: #FFFFFF; /* White for better contrast */
+  font-size: 16px; /* Larger font for better readability */
+  text-align: center;
+  padding: 8px;
+  border: 1px dashed #2C6B2F; /* Dark Green Border */
+}
+
+.calendar-box p {
+  margin: 0;
+  text-align: center;
+  font-size: 18px; /* Larger text inside the boxes */
+  color: #FFFFFF; /* White text for better visibility */
+}
+
+.calendar-box:focus {
+  outline: 2px solid #FFD54F; /* Gold outline when focused for accessibility */
+}
